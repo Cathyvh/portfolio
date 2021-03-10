@@ -75,6 +75,9 @@ h4 {
 a:visited {
   color: #53847e;
 }
+a {
+  color: #53847e;
+}
 h2 {
   font-size: 32px;
 }
