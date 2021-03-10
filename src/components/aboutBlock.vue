@@ -12,7 +12,7 @@
           I’m creative, curious and a fun coworker to have around!
         </p>
       </div>
-      <div class="about-img"><img src="../assets/img/profil.png" alt="" /></div>
+      <div class="about-img"><img src="../assets/img/profil.jpg" alt="" /></div>
     </div>
   </div>
 </template>

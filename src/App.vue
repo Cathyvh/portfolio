@@ -25,7 +25,7 @@
 
 <style>
 html {
-  background-color: #FFFEFC;
+  background-color: #fffefc;
 }
 #app {
   font-family: "Lato", sans-serif;
@@ -33,7 +33,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #53847e;
-  background-color: #FFFEFC;
+  background-color: #fffefc;
 }
 
 h1,
@@ -70,6 +70,7 @@ h4 {
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
+  color: #53847e;
 }
 a:visited {
   color: #53847e;
