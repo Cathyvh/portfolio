@@ -24,7 +24,7 @@
         <input name="email" class="input" type="email" />
         <label for="messsage">Message</label>
         <textarea name="message" id=""></textarea>
-        <input class="button" type="submit" value="Submit" />
+        <input name="button" class="button" type="submit" value="Submit" />
       </form>
     </div>
   </div>
