@@ -17,13 +17,13 @@
           <a href="https://github.com/Cathyvh"> GitHub</a>
         </div>
       </div>
-      <form name="contact" method="POST" data-netlify="true" action="">
+      <form name="contact" netlify="true" action="">
         <label for="name">Name</label>
-        <input class="input" type="text" />
+        <input name="name" class="input" type="text" />
         <label for="email">Email Address</label>
-        <input class="input" type="email" />
+        <input name="email" class="input" type="email" />
         <label for="messsage">Message</label>
-        <textarea name="" id=""></textarea>
+        <textarea name="message" id=""></textarea>
         <input class="button" type="submit" value="Submit" />
       </form>
     </div>
