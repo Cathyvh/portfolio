@@ -17,7 +17,7 @@
           <a href="https://github.com/Cathyvh"> GitHub</a>
         </div>
       </div>
-      <form method="POST" data-netlify="true" action="">
+      <form data-netlify="true">
         <label for="name">Name</label>
         <input class="input" type="text" />
         <label for="email">Email Address</label>
