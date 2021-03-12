@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="cards-gallery">
+      <h2 id="heading">Projects</h2>
       <div class="cards img-left">
         <img src="../assets/img/neo.jpg" alt="" />
 
@@ -71,6 +72,12 @@ export default {
   display: flex;
   flex-direction: row;
 }
+#heading {
+  text-align: center;
+}
+img {
+  box-shadow: 3px 3px 8px -5px rgba(0, 0, 0, 0.59);
+}
 .cards-text a {
   font-weight: 700;
   color: #e2a15b;
@@ -84,7 +91,7 @@ export default {
 @media (min-width: 1101px) {
   .cards {
     display: flex;
-    margin: 7em 0;
+    margin-bottom: 15em;
     text-align: left;
   }
   img {
@@ -103,12 +110,20 @@ export default {
     display: flex;
     flex-direction: row-reverse;
   }
+  .cards-gallery {
+    padding-top: 20vh;
+  }
 }
 @media (max-width: 1100px) {
+  .cards-gallery {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+  }
   .cards {
     width: 100%;
     display: flex;
-    margin: 7em 0;
+    margin: 2.5em 0;
     text-align: left;
   }
   img {

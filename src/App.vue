@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <div class="nav-name">
+    <b-navbar fixed="top" id="nav">
+      <!-- <div class="nav-name">
         <h1>Cathy van Heijst</h1>
         <h3>Front End Developer</h3>
-      </div>
+      </div> -->
       <div class="nav-links">
-        <router-link class="link" to="/">Home</router-link>
-        <router-link class="link" to="/about">About</router-link>
-        <router-link class="link" to="/contact">Contact</router-link>
+        <a v-smooth-scroll class="link" href="#about">About</a>
+        <a v-smooth-scroll class="link" href="#projects">Projects</a>
+        <a v-smooth-scroll class="link" href="#contact">Contact</a>
       </div>
-    </div>
+    </b-navbar>
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -24,8 +24,14 @@
 </template>
 
 <style>
-html {
-  background-color: #fffefc;
+body {
+  background: rgb(255, 254, 252);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 254, 252, 1) 48%,
+    rgba(250, 239, 226, 0.4598039899553571) 74%,
+    rgba(226, 161, 91, 0.23571435410101538) 100%
+  );
 }
 #app {
   font-family: "Lato", sans-serif;
@@ -33,9 +39,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #53847e;
-  background-color: #fffefc;
+  height: 100%;
+  /* background-color: #fffefc;*/
 }
-
+#heading {
+  text-align: center;
+  padding-bottom: 3em;
+  font-weight: bold;
+}
 h1,
 h2,
 h3,
@@ -53,7 +64,7 @@ h4 {
   align-self: flex-end;
 }
 .nav-name h1 {
-  margin-top: 20px;
+  margin-top: ;
   font-size: 60px;
   font-weight: 800;
 }
@@ -64,7 +75,7 @@ h4 {
   padding-right: 2em;
 }
 .nav-links {
-  padding-top: 7em;
+  padding-top: 2em;
 }
 #nav a {
   font-weight: bold;
@@ -98,16 +109,18 @@ h2 {
   border: none;
   border-radius: 5px;
 }
-img {
-  box-shadow: 3px 3px 8px -5px rgba(0, 0, 0, 0.59);
-}
+
 @media (min-width: 799px) {
   #nav {
-    padding: 30px 100px;
+    padding: 20px 10px 5px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 
     /* border-bottom: 5px dashed #e2a15b; */
+  }
+  .downArrow {
+    margin: 20em auto 0 auto;
+    align-items: flex-end;
   }
 }
 
@@ -134,6 +147,72 @@ img {
   }
   .nav-links {
     padding-top: 2em;
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 }
 </style>

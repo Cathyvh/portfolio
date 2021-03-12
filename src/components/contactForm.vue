@@ -30,6 +30,14 @@
   </div>
 </template>
 <style scoped>
+.contact {
+  height: 100vh;
+  display: flex;
+}
+.form-container {
+  padding-top: 20vh;
+}
+
 .links {
   display: flex;
   flex-direction: row;

@@ -12,15 +12,21 @@
           I’m creative, curious and a fun coworker to have around!
         </p>
       </div>
-      <div class="about-img"><img src="../assets/img/profil.jpg" alt="" /></div>
+      <div class="about-img"><img src="../assets/img/profil.png" alt="" /></div>
     </div>
   </div>
 </template>
 <style scoped>
+.about {
+  height: 80vh;
+  display: flex;
+  align-content: center;
+  padding-top: 20vh;
+  margin: 0 auto;
+}
 @media (min-width: 801px) {
   img {
     width: 25em;
-    border-radius: 7px;
   }
   .about-text {
     max-width: 40em;
@@ -29,7 +35,7 @@
   .about-box {
     display: flex;
     text-align: left;
-    margin: 5em 0;
+    margin: 1em auto;
     justify-content: space-around;
   }
 }
