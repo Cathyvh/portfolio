@@ -19,12 +19,17 @@
         </div>
       </div>
       <form name="contact" method="POST" data-netlify="true">
-        <label for="name">Name</label>
-        <input name="name" class="input" type="text" />
-        <label for="email">Email Address</label>
-        <input name="email" class="input" type="email" />
-        <label for="messsage">Message</label>
-        <textarea name="message" id=""></textarea>
+        <label for="name"
+          >Name <input name="name" class="input" type="text"
+        /></label>
+
+        <label for="email"
+          >Email Address <input name="email" class="input" type="email"
+        /></label>
+
+        <label for="messsage"
+          >Message <textarea name="message" id=""></textarea>
+        </label>
         <input name="button" class="button" type="submit" value="Submit" />
       </form>
     </div>
