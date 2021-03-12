@@ -3,7 +3,7 @@
     <div class="cards-gallery">
       <h2 id="heading">Projects</h2>
       <div class="cards img-left">
-        <img src="../assets/img/neo.jpg" alt="" />
+        <img src="../assets/img/neo.png" alt="" />
 
         <div class="cards-text">
           <h2>Near Earth Objects</h2>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="cards img-right">
-        <img src="../assets/img/sinus.jpg" alt="" />
+        <img src="../assets/img/sinus.png" alt="" />
         <div class="cards-text">
           <h2>Sinus webshop</h2>
           <p>
@@ -49,7 +49,7 @@
         </div>
       </div>
       <div class="cards img-right">
-        <img src="../assets/img/kvinnofrid.jpg" alt="" />
+        <img src="../assets/img/kvinnofrid.png" alt="" />
         <div class="cards-text">
           <h2>KvinnoFrid</h2>
           <p>
