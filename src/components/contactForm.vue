@@ -18,6 +18,24 @@
           <a href="https://github.com/Cathyvh"> GitHub</a>
         </div>
       </div>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: </label>
+          <input type="text" name="name" />
+        </p>
+        <p>
+          <label>Your Email: </label>
+          <input type="email" name="email" />
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button class="button" type="submit">Send</button>
+        </p>
+      </form>
+
       <form name="contact1" method="POST" data-netlify="true">
         <label for="name">Name</label>
         <input name="name1" class="input" type="text" />
