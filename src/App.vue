@@ -71,9 +71,7 @@ h4 {
 .nav-name h2 {
   margin-bottom: 0;
 }
-.link {
-  padding-right: 2em;
-}
+
 .nav-links {
   padding-top: 2em;
 }
@@ -118,6 +116,9 @@ h2 {
 
     /* border-bottom: 5px dashed #e2a15b; */
   }
+  .link {
+    padding-right: 2em;
+  }
 }
 
 @media (max-width: 798px) {
@@ -128,21 +129,17 @@ h2 {
   #nav {
     display: flex;
     flex-direction: column;
-    margin: 1em auto;
+    padding-top: 1em;
+    margin: 0 auto;
     width: 85%;
+    background-color: rgba(255, 253, 250, 0.78);
   }
-  .nav-name {
-    text-align: left;
-    margin: 0;
-    align-self: flex-start;
-  }
-  .nav-name h1 {
-    margin-top: 20px;
-    font-size: 50px;
-    font-weight: 800;
-  }
+
   .nav-links {
-    padding-top: 2em;
+    padding-top: 0.75em;
+  }
+  .link {
+    margin: 0 1em;
   }
 }
 
