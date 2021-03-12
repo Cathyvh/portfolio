@@ -21,12 +21,12 @@
 
       <form name="contact1" method="POST" data-netlify="true">
         <label for="name">Name</label>
-        <input name="name1" class="input" type="text" />
+        <input type="hidden" name="name1" class="input" />
         <label for="email">Email Address</label>
-        <input name="email1" class="input" type="email" />
+        <input type="hidden" name="email1" class="input" />
         <label for="messsage1">Message</label>
-        <textarea name="message" id=""></textarea>
-        <input name="button1" class="button" type="submit" value="Submit" />
+        <textarea type="hidden" name="message" id=""></textarea>
+        <input name="button1" class="button" type="submit" />
       </form>
     </div>
   </div>
