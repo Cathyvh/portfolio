@@ -23,12 +23,11 @@
 </template>
 <style scoped>
 .contact {
-  height: 100vh;
+  height: 70vh;
   display: flex;
 }
 .form-container {
-  padding-top: 20vh;
-  padding-bottom: 10vh;
+  padding-top: 10vh;
 }
 
 .links {
