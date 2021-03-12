@@ -2,11 +2,12 @@
   <div class="contact">
     <div class="form-container">
       <div class="form-text">
-        <h2>Contact me!</h2>
+        <h2>Contact me</h2>
         <p>
-          Does all of this look interesting? In that case, please reach out. I
-          am looking for in intership at the moment and anything Front End would
-          be of interest.
+          Thanks for checking my website! If any of this looked interesting,
+          please reach out.
+          <br />
+          I'm looking for an intership from August the 30th to october the 22nd.
         </p>
         <p class="bold">You can also find me at:</p>
         <div class="links">
@@ -17,7 +18,7 @@
           <a href="https://github.com/Cathyvh"> GitHub</a>
         </div>
       </div>
-      <form name="contact" method="POST" netlify="true">
+      <form name="contact" method="POST" data-netlify="true">
         <label for="name">Name</label>
         <input name="name" class="input" type="text" />
         <label for="email">Email Address</label>
@@ -36,6 +37,7 @@
 }
 .form-container {
   padding-top: 20vh;
+  padding-bottom: 10vh;
 }
 
 .links {

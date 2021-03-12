@@ -2,9 +2,8 @@
   <div id="start">
     <div class="start-content">
       <h1>Hello!</h1>
-
       <h1>I'm Cathy van Heijst</h1>
-      <h2>A Front End Developer student looking for an intership</h2>
+      <h2>A Front End Developer student looking for an internship</h2>
       <div class="downArrow bounce">
         <a v-smooth-scroll href="#about">
           <img
@@ -20,7 +19,7 @@
   </div>
 </template>
 <style scoped>
-@media (min-width: 801px) and (max-width: 1200px) {
+@media (min-width: 801px) and (max-width: 1250px) {
   #start {
     height: 80vh;
     display: flex;
@@ -39,7 +38,11 @@
     font-size: 97px;
   }
 }
-@media (min-width: 1201px) {
+@media (min-width: 1250px) {
+  .downArrow {
+    margin: 15em auto 0 auto;
+    align-items: flex-end;
+  }
   #start {
     height: 80vh;
     display: flex;

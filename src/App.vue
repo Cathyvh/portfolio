@@ -118,10 +118,6 @@ h2 {
 
     /* border-bottom: 5px dashed #e2a15b; */
   }
-  .downArrow {
-    margin: 20em auto 0 auto;
-    align-items: flex-end;
-  }
 }
 
 @media (max-width: 798px) {

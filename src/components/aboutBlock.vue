@@ -3,13 +3,14 @@
   <div class="about">
     <div class="about-box">
       <div class="about-text">
-        <h2>About Cathy!</h2>
+        <h2>About me!</h2>
         <p>
-          With a past in customer success, I'm now diving headfirst into Front
+          With a past in Customer Success, I'm now diving headfirst into Front
           End Development. Learning as much as I can about development, agile
-          workflows, UX and design. My past in a tech-startup has given me a
-          great foundation for future work in IT. Besides that, I like to think
-          I’m creative, curious and a fun coworker to have around!
+          workflows, UX and design. <br />
+          My past in a tech-startup has given me a great foundation for future
+          work in IT. <br />
+          I am creative, curious and I like to think that I'm funny.
         </p>
       </div>
       <div class="about-img"><img src="../assets/img/profil.png" alt="" /></div>

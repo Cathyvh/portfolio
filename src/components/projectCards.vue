@@ -9,8 +9,9 @@
           <h2>Near Earth Objects</h2>
           <p>
             A Vue.js project Fetching data from the NASA JPL Asteroid team.
-            Using Vuex, Bootsrap vue and and Nasas API i built this website
-            where you can search for near erath objects on a specific date.
+            Using Vuex, Bootsrap Vue and and Nasas API i built this responsive
+            website where you can search for near earth objects on a specific
+            date.
           </p>
           <div class="links">
             <a
@@ -36,9 +37,10 @@
         <div class="cards-text">
           <h2>Tarot Reading</h2>
           <p>
-            Our first Nativ Javascript assignment. It’s very basic, using only a
-            CSS, HTML and JS file. I fetched data from a tarot-API, you can pick
-            cards just like a tarot reading and click on the cards for
+            Our first Nativ Javascript assignment, using only a CSS, HTML and JS
+            file. I fetched data from a
+            <a href="https://github.com/ekelen/tarot-api">tarot-API</a>. You can
+            pick cards just like a real tarot reading and click on the cards for
             description and meaning.
           </p>
           <div class="links">
