@@ -9,25 +9,15 @@
           <br />
           I'm looking for an intership from August the 30th to october the 22nd.
         </p>
-        <p class="bold">You can also find me at:</p>
+        <p class="bold">You can reach me through:</p>
         <div class="links">
+          <a href="mailto: cathyvheijst@gmail.com">Email</a>
           <a href="https://www.linkedin.com/in/cathy-van-heijst-87472b15a/">
             LinkedIn
           </a>
-          <p class="amp">&#38;</p>
           <a href="https://github.com/Cathyvh"> GitHub</a>
         </div>
       </div>
-
-      <form name="contact1" method="POST" data-netlify="true">
-        <label for="name">Name</label>
-        <input type="hidden" name="name1" class="input" />
-        <label for="email">Email Address</label>
-        <input type="hidden" name="email1" class="input" />
-        <label for="messsage1">Message</label>
-        <textarea type="hidden" name="message" id=""></textarea>
-        <input name="button1" class="button" type="submit" />
-      </form>
     </div>
   </div>
 </template>
@@ -47,12 +37,13 @@
   font-size: 20px;
   margin-top: 2em;
 }
-.amp,
+
 .links a {
   font-weight: bold;
   margin-bottom: 0.5em;
   color: #e2a15b;
   text-decoration: none;
+  margin-right: 1em;
 }
 .amp {
   margin: 0 0.5em;
