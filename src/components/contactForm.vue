@@ -7,7 +7,7 @@
           Thanks for checking my website! If any of this looked interesting,
           please reach out.
           <br />
-          I'm looking for an intership from August the 30th to october the 22nd.
+          My next internship period is 24th of january - 13th of may.
         </p>
         <p class="bold">You can reach me through:</p>
         <div class="links">

@@ -3,7 +3,7 @@
     <div class="start-content">
       <h1>Hello!</h1>
       <h1>I'm Cathy van Heijst</h1>
-      <h2>A Front End Developer student looking for an internship</h2>
+      <h2>A Front End Developer student, looking for my next challenge</h2>
       <div class="downArrow bounce">
         <a v-smooth-scroll href="#about">
           <svg

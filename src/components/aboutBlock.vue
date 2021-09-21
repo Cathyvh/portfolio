@@ -5,12 +5,13 @@
       <div class="about-text">
         <h2>About me!</h2>
         <p>
-          With a past in Customer Success, I'm now diving headfirst into Front
-          End Development. Learning as much as I can about development, agile
-          workflows, UX and design. <br />
-          My past in a tech-startup has given me a great foundation for future
-          work in IT. <br />
-          I am creative, curious and I like to think that I'm funny.
+        With a past in Customer Success, I'm now diving headfirst into Front End Development.
+        <br>Learning as much as I can about development, agile workflows, UX and design.
+        <br> <br/>
+        My passion lies in startups and companies that contribute in making our society a better place, either through environmental or humanitarian means. 
+        <br>I have a past in a tech-startup which has given me a great foundation for future work in IT and a good knowledge of the growing pains of a startup.
+        <br><br />
+          Besides that, I am creative, curious and I also like to think that I'm funny.
         </p>
       </div>
       <div class="about-img"><img src="../assets/img/profil.png" alt="" /></div>

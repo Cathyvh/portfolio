@@ -2,18 +2,35 @@
   <div>
     <div class="cards-gallery">
       <h2 id="heading">Projects</h2>
+
+      <div class="cards img-right">
+        <img src="../assets/img/airbean.jpg" alt="" />
+        <div class="cards-text">
+          <h2>Airbean</h2>
+          <p>
+            Airbean - Dronedelivered coffee
+            Built an API storing the menu and prices and accounts with a lowDB database.
+            I built the the rest of the app using <strong>react, redux, redux store and lowDB</strong>, we had to follow a finished design by the school.
+          </p>
+          <div class="links link">
+            <a
+              href="https://github.com/Cathyvh/airbean-project"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
       <div class="cards img-left">
         <img src="../assets/img/neo.png" alt="" />
-
         <div class="cards-text">
           <h2>Near Earth Objects</h2>
           <p>
-            A Vue.js project Fetching data from the NASA JPL Asteroid team.
-            Using Vuex, Bootsrap Vue and and Nasas API i built this responsive
-            website where you can search for near earth objects on a specific
-            date.
+            A PWA project made in Vue.js Fetching data from the NASA JPL
+            Asteroid team. Using Vuex, Bootsrap Vue and and Nasas API i built
+            this responsive website where you can search for near earth objects
+            on a specific date.
           </p>
-          <div class="links">
+          <div class="links link">
             <a
               href="https://github.com/Cathyvh/Near-Earth-Obejct-Vue.js-project"
               >GitHub</a
@@ -43,7 +60,7 @@
             pick cards just like a real tarot reading and click on the cards for
             description and meaning.
           </p>
-          <div class="links">
+          <div class="links link">
             <a href="https://github.com/Cathyvh/Tarot-project">GitHub</a>
           </div>
         </div>
@@ -80,12 +97,17 @@ export default {
 img {
   box-shadow: 3px 3px 8px -5px rgba(0, 0, 0, 0.59);
 }
-.cards-text a {
+.cards-text .link a {
   font-weight: 700;
   color: #e2a15b;
   margin-bottom: 0.7;
   margin-right: 1em;
   text-decoration: none;
+}
+.cards-text a {
+  font-weight: 700;
+  color: #e2a15b;
+ text-decoration: none;
 }
 .cards-text a:hover {
   color: #53847e;
